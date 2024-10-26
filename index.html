@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <h2 title="this provide editional heading">the title attribute give the editional information</h2>
+    <p title="this provide editional information">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reiciendis, nesciunt assumenda odio obcaecati quos natus fugit ad aperiam. Maxime quae, at nihil officiis rem velit fuga accusamus dolores quam!</p>
+
+    <pre>
+        this is amazing
+                          and not interested 
+                                                not use in mostly
+    </pre>
+    <strong>this is first experience of use the strong</strong><br>
+    <em>freshly use the emphisized attribute</em><br>
+    <small>it turns the text in smaller size</small> H <sub>2</sub>O
+    <br> 2x <sup>2</sup><br>
+    <mark>highlighted</mark>
+    <del>partially removed now</del><br>
+    <ins>now added in the screen</ins><br> //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    <abbr title="Date of Birth">DOB</abbr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At?</p>
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi inventore perspiciatis deserunt incidunt fugit aperiam aliquam accusantium harum magni.</blockquote>
+    <q>lorem10</q>
+    <address>mohallah grah near markaz chiniot</address>
+    <bdo dir="rtl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloremque.</bdo>
+
+    <details>
+        <summary>this is explain more</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam voluptate suscipit!</p>
+    </details>
+    <a href="https://www.google.com/" target="_blank">goole</a>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+
+    <dl>
+        <dt>lalal</dt>
+        <dd>laelaelae</dd>
+    </dl>
+
+    <dl>
+        <dt>this is the more usefull</dt>
+        <dd>o waqai is this</dd>
+    </dl>
+
+    <button type="button" onclick="document.getElementById('res').innerHTML=Date()">click to me for watch time</button>
+    <p id="res"></p>
+    <h3 id="mo">tis is ss</h3>
+
+
+
+    <input type="color" name="" id="resul" onchange="thiss()">
+
+
+
+
+
+
+    <script>
+        function thiss() {
+            let v = document.getElementById("resul").value;
+            document.body.style.background = v
+        }
+
+        var s = document.getElementById("mo");
+        s.addEventListener("mouseover", function() {
+            s.innerHTML = "writing new thing"
+        })
+        s.addEventListener("mouseover", function() {
+            document.body.style.color = 'red';
+        })
+    </script>
+
+</body>
+
+
+</html>
